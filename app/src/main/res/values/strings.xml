@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Exercici1</string>
+    <string name="Nom">IntrodueixNom</string>
+    <string name="IntrodueixNom" />
+    <string name="label2">Introdueix Cognom</string>
+    <string name="edat">Introdueix l\'Edat</string>
+    <string name="canviPantalla">Canvi Pantalla</string>
+    <string name="mostrarNom">mostrarNom</string>
+    <string name="mostrarCognom">mostrarCognom</string>
+    <string name="mostrarEdat">mostrarEdat</string>
+</resources>

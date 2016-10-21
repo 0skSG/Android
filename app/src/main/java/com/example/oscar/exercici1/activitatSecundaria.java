@@ -18,10 +18,14 @@ public class activitatSecundaria extends AppCompatActivity {
 
         Bundle Bundle = getIntent().getExtras();
 
+        Toast toast1 = Toast.makeText(getApplicationContext(),Bundle.getString("Opcio"),Toast.LENGTH_SHORT);
+        
         mostrarNom.setText(Bundle.getString("Nom"));
         mostrarCognom.setText(Bundle.getString("Cognom"));
         mostrarEdat.setText(Bundle.getString("Edat"));
         enviarDades.setText(Bundle.getString("Opcio"));
+        
+        toast1.show();
 
     }
 }
